@@ -533,7 +533,8 @@
  *                                                                                       *
  *****************************************************************************************/
 // Default steps per unit               X,  Y,  Z
-#define DEFAULT_AXIS_STEPS_PER_UNIT   {80, 80, 3200}
+// X: 0.5x70/20x5.18x3200
+#define DEFAULT_AXIS_STEPS_PER_UNIT   {29008, 80, 3200}
 // Default steps per unit               E0, ...(per extruder)
 #define DEFAULT_AXIS_STEPS_PER_UNIT_E {625, 625, 625, 625}
 /*****************************************************************************************/
@@ -543,11 +544,11 @@
  ********************************** Axis feedrate ****************************************
  *****************************************************************************************/
 //                                       X,   Y, Z (mm/sec)
-#define DEFAULT_MAX_FEEDRATE          {300, 300, 2}
+#define DEFAULT_MAX_FEEDRATE          {25, 25, 2}
 //                                      E0, ...(per extruder). (mm/sec)
 #define DEFAULT_MAX_FEEDRATE_E        {100, 100, 100, 100}
 // Feedrates for manual moves along     X,  Y, Z,  E from panel (mm/sec)
-#define MANUAL_FEEDRATE               {50, 50, 4, 10}
+#define MANUAL_FEEDRATE               {25, 25, 4, 10}
 // (mm) Smallest manual Z move (< 0.1mm)
 #define SHORT_MANUAL_Z_MOVE           0.025
 // Minimum feedrate

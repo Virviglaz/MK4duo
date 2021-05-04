@@ -58,7 +58,7 @@
  *
  * 2400, 9600, 19200, 38400, 57600, 115200, 250000, 500000, 1000000
  */
-#define BAUDRATE_1 250000
+#define BAUDRATE_1 115200
 
 /**
  * Select a secondary serial port on the board to use for communication with the host.
@@ -78,7 +78,7 @@
  *
  * 2400, 9600, 19200, 38400, 57600, 115200, 250000, 500000, 1000000
  */
-#define BAUDRATE_2 250000
+#define BAUDRATE_2 115200
 
 /**
  * The number of linear motions that can be in the plan at any give time.
@@ -198,7 +198,7 @@
  * See: https://github.com/MagoKimbra/MK4duo/blob/master/Documentation/Hardware.md *
  *                                                                                       *
  *****************************************************************************************/
-#define MOTHERBOARD BOARD_RAMPS_13_HFB
+#define MOTHERBOARD BOARD_MKS_GEN_L
 /*****************************************************************************************/
 
 
